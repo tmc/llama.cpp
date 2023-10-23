@@ -90,7 +90,7 @@
 //  }
 //
 #ifndef LOG_TARGET
-    #define LOG_TARGET log_handler()
+    #define LOG_TARGET nullptr
 #endif
 
 #ifndef LOG_TEE_TARGET
